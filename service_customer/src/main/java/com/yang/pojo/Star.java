@@ -65,4 +65,16 @@ public class Star implements Serializable{
     public void setStar_id(String star_id) {
         this.star_id = star_id;
     }
+
+    @Override
+    public String toString() {
+        return "Star{" +
+                "id=" + id +
+                ", group_id='" + group_id + '\'' +
+                ", star_info='" + star_info + '\'' +
+                ", face_taken='" + face_taken + '\'' +
+                ", img_url='" + img_url + '\'' +
+                ", star_id='" + star_id + '\'' +
+                '}';
+    }
 }

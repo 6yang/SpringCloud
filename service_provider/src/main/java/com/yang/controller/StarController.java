@@ -15,6 +15,11 @@ public class StarController {
 
     @RequestMapping("{id}")
     public Star queryById(@PathVariable("id") Integer id){
+//        try {
+//            Thread.sleep(20000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         return starService.queryById(id);
     }
 }

@@ -1,9 +1,23 @@
 server:
-  port: 8081
+  port: 8080
 spring:
   application:
-    name: service_customer
+    name: service-customer
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:10086/eureka/
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000 # 设置hystrix的超时时间为6000ms
+feign:
+  hystrix:
+    enabled: true # 开启Feign的熔断功能
+
+logging:
+  level:
+    com.yang: debug

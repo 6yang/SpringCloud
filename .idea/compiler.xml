@@ -9,12 +9,14 @@
         <module name="eureka_demo" />
         <module name="service_customer" />
         <module name="service_provider" />
+        <module name="service_zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="eureka_demo" target="1.8" />
       <module name="service_customer" target="1.8" />
       <module name="service_provider" target="1.8" />
+      <module name="service_zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
