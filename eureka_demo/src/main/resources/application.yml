@@ -1,0 +1,14 @@
+#����������
+#�޸�Ĭ������
+#���ע����������
+server:
+  port: 10086
+spring:
+  application:
+    name: yang-eureka  #��������Ϊ����id  ���߷�����ע�ᵽeureka ע������
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka/,http://localhost:10087/eureka/
+  server:
+    eviction-interval-timer-in-ms: 10000
