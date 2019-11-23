@@ -6,17 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka_demo" />
-        <module name="service_customer" />
-        <module name="service_provider" />
+        <module name="elasticsearch_demo" />
         <module name="service_zuul" />
+        <module name="eureka_demo" />
+        <module name="service_provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="elasticsearch_demo" target="1.8" />
       <module name="eureka_demo" target="1.8" />
       <module name="service_customer" target="1.8" />
       <module name="service_provider" target="1.8" />
       <module name="service_zuul" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="elasticsearch_demo" options="-parameters" />
+      <module name="eureka_demo" options="-parameters" />
+      <module name="service_provider" options="-parameters" />
+      <module name="service_zuul" options="-parameters" />
+    </option>
   </component>
 </project>

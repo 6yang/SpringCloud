@@ -1,0 +1,5 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 112.124.46.10:9300  #是IP地址不是 http 开头的
