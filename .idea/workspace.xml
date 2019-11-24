@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a82b7a-cd47-48f1-8077-64632a959746" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/elasticsearch_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch_demo/src/main/java/cn/yang/elasticsearch/ElasticsearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch_demo/src/main/java/cn/yang/elasticsearch/Repository/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch_demo/src/main/java/cn/yang/elasticsearch/pojo/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch_demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch_demo/src/test/java/cn/yang/elasticsearch/test/ElasticsearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service_customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service_customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch_demo/src/main/java/cn/yang/elasticsearch/Repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch_demo/src/main/java/cn/yang/elasticsearch/Repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch_demo/src/test/java/cn/yang/elasticsearch/test/ElasticsearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch_demo/src/test/java/cn/yang/elasticsearch/test/ElasticsearchTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +83,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -122,7 +114,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ElasticsearchTest.testFind1">
+  <component name="RunManager" selected="JUnit.ElasticsearchTest.testSubAggs">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -141,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElasticsearchTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElasticsearchTest.nativequery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elasticsearch_demo" />
       <extension name="coverage">
         <pattern>
@@ -151,14 +143,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.yang.elasticsearch.test" />
       <option name="MAIN_CLASS_NAME" value="cn.yang.elasticsearch.test.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="testCreate" />
+      <option name="METHOD_NAME" value="nativequery" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElasticsearchTest.testCreateall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElasticsearchTest.nativequery1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elasticsearch_demo" />
       <extension name="coverage">
         <pattern>
@@ -168,14 +160,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.yang.elasticsearch.test" />
       <option name="MAIN_CLASS_NAME" value="cn.yang.elasticsearch.test.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="testCreateall" />
+      <option name="METHOD_NAME" value="nativequery1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElasticsearchTest.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElasticsearchTest.testAggs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elasticsearch_demo" />
       <extension name="coverage">
         <pattern>
@@ -185,14 +177,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.yang.elasticsearch.test" />
       <option name="MAIN_CLASS_NAME" value="cn.yang.elasticsearch.test.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="testFind" />
+      <option name="METHOD_NAME" value="testAggs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElasticsearchTest.testFind1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElasticsearchTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elasticsearch_demo" />
       <extension name="coverage">
         <pattern>
@@ -202,14 +194,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.yang.elasticsearch.test" />
       <option name="MAIN_CLASS_NAME" value="cn.yang.elasticsearch.test.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="testFind1" />
+      <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElasticsearchTest.testIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElasticsearchTest.testSubAggs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elasticsearch_demo" />
       <extension name="coverage">
         <pattern>
@@ -219,7 +211,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.yang.elasticsearch.test" />
       <option name="MAIN_CLASS_NAME" value="cn.yang.elasticsearch.test.ElasticsearchTest" />
-      <option name="METHOD_NAME" value="testIndex" />
+      <option name="METHOD_NAME" value="testSubAggs" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -294,10 +286,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ElasticsearchTest.testIndex" />
-      <item itemvalue="JUnit.ElasticsearchTest.testCreate" />
-      <item itemvalue="JUnit.ElasticsearchTest.testCreateall" />
-      <item itemvalue="JUnit.ElasticsearchTest.testFind" />
       <item itemvalue="Spring Boot.EurekaDemoApplication" />
       <item itemvalue="Spring Boot.ServiceProviderApplication" />
       <item itemvalue="Spring Boot.ServiceCustomerApplication" />
@@ -305,15 +293,19 @@
       <item itemvalue="Spring Boot.ServiceProviderApplication2" />
       <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.ElasticsearchApplication" />
-      <item itemvalue="JUnit.ElasticsearchTest.testFind1" />
+      <item itemvalue="JUnit.ElasticsearchTest.testSearch" />
+      <item itemvalue="JUnit.ElasticsearchTest.nativequery" />
+      <item itemvalue="JUnit.ElasticsearchTest.nativequery1" />
+      <item itemvalue="JUnit.ElasticsearchTest.testAggs" />
+      <item itemvalue="JUnit.ElasticsearchTest.testSubAggs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ElasticsearchTest.testFind1" />
-        <item itemvalue="JUnit.ElasticsearchTest.testFind" />
-        <item itemvalue="JUnit.ElasticsearchTest.testCreate" />
-        <item itemvalue="JUnit.ElasticsearchTest.testCreateall" />
-        <item itemvalue="JUnit.ElasticsearchTest.testIndex" />
+        <item itemvalue="JUnit.ElasticsearchTest.testSubAggs" />
+        <item itemvalue="JUnit.ElasticsearchTest.testAggs" />
+        <item itemvalue="JUnit.ElasticsearchTest.nativequery1" />
+        <item itemvalue="JUnit.ElasticsearchTest.nativequery" />
+        <item itemvalue="JUnit.ElasticsearchTest.testSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -351,6 +343,7 @@
       <workItem from="1574500268892" duration="697000" />
       <workItem from="1574501078937" duration="5668000" />
       <workItem from="1574511412460" duration="756000" />
+      <workItem from="1574596542465" duration="3977000" />
     </task>
     <servers />
   </component>
