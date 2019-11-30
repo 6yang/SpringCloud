@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/elasticsearch_demo/elasticsearch_demo.iml" filepath="$PROJECT_DIR$/elasticsearch_demo/elasticsearch_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_demo/eureka_demo.iml" filepath="$PROJECT_DIR$/eureka_demo/eureka_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itcast-rabbitmq/itcast-rabbitmq.iml" filepath="$PROJECT_DIR$/itcast-rabbitmq/itcast-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_customer/service_customer.iml" filepath="$PROJECT_DIR$/service_customer/service_customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_provider/service_provider.iml" filepath="$PROJECT_DIR$/service_provider/service_provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_zuul/service_zuul.iml" filepath="$PROJECT_DIR$/service_zuul/service_zuul.iml" />
